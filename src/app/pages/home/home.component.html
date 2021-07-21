@@ -1,0 +1,6 @@
+<h1>Long Polling</h1>
+<button (click)="startPolling()">Start polling</button>
+<div *ngIf="polling">subscribe</div>
+<div *ngIf="!polling">unsubscribe</div>
+<div>Is polling? ---> {{polling}}</div>
+<div>Status form back: {{status}}</div>
